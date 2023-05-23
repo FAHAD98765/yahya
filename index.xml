@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE marksheet [
+<!ELEMENT marksheet  (marksheet1*)>
+   <!ELEMENT marksheet1 ((fname|firstname),lname,subject,grade,position)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ATTLIST marksheet1 id  CDATA #REQUIRED>
+<!ENTITY abc 'Fragger'>
+
+]>
+
+
+<marksheet>
+<marksheet1 id="check">
+<firstname>Fahad khan</firstname>
+<lname>Wamiq</lname>
+<subject>&abc; "Maths 75"</subject>
+<grade>A+</grade>
+<position>&abc;</position>
+</marksheet1>
+
+
+<marksheet1 id="fd">
+<firstname>Fahad khan</firstname>
+<lname>Wamiq</lname>
+<subject>&abc; "Maths 75"</subject>
+<grade>A+</grade>
+<position>&abc;</position>
+</marksheet1>
+
+<marksheet1 id="unzila">
+<firstname>Fahad khan</firstname>
+<lname>Wamiq</lname>
+<subject>&abc; "Maths 75"</subject>
+<grade>A+</grade>
+<position>&abc;</position>
+</marksheet1>
+
+<marksheet1 id="fragger">
+<firstname>Fahad khan</firstname>
+<lname>Wamiq</lname>
+<subject>&abc; "Maths 75"</subject>
+<grade>A+</grade>
+<position>&abc;</position>
+</marksheet1>
+
+<marksheet1 id="simple">
+<firstname>Fahad khan</firstname>
+<lname>Wamiq</lname>
+<subject>&abc; "Maths 75"</subject>
+<grade>A+</grade>
+<position>&abc;</position>
+</marksheet1>
+</marksheet>
